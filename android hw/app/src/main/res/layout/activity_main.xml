@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="40dp"
+    android:layout_marginStart="60dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="40dp"
+        android:background="#D2E9EC"
+        android:text="Grade Calculater"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#FFC107"
+        android:ems="10"
+        android:hint="Quizes %15"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#3F51B5"
+        android:ems="10"
+        android:hint="Homework %25"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#E91E63"
+        android:ems="10"
+        android:hint="Mid terms 30%"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#4CAF50"
+        android:ems="10"
+        android:hint="Final 30%"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="30dp" />
+</LinearLayout>
